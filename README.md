@@ -29,9 +29,13 @@ a) From there, locate and click on the "Create bucket" button.
 3. We will follow the steps to create a new bucket. Provide a unique name for the bucket which will.
 
 a) Select "ACL Disabled" for object ownership. 
+
 b) Check the "Block all public access" option, this is necessary.
+
 c) Leave the Bucket Versioning disabled.
+
 d) Proceed with the default settings.
+
 e) Finally, click on the "Create bucket" button to finalize the bucket creation process.
 
 ![](./img/3a.png)
@@ -70,7 +74,7 @@ a) Once selected, click "Open"
 
 You have  successfully uploaded your object (file) to the S3 bucket (folder).
 
-## The next step for us in this project is enabling versioning. 
+## The next step for us in this project is to enable versioning. 
 
 1. Navigate back to your bucket.
 
@@ -107,7 +111,7 @@ a) By clicking on "Show versions", you'll be able to see all the versions of the
 
 b) Be aware that whenever you make changes to the file and upload it again to the same bucket, it will continue creating versions of that file for future reference.
 
-## In order to view the content fo both files we will have to set up permissions which will be the next step.
+## In order to view the content for both files we will have to set up permissions which will be the next step.
 
 1. In the buckets  click on  permission ,you will notice that "Block all public access" is enabled.
 
@@ -116,6 +120,7 @@ a) Click on "Edit" to make changes.
 ![permissions](./img/6a.%20Permission.png)
 
 2. Uncheck the "Block all public access" option.
+
 a) Then click on the "save changes"
 
 ![uncheck](./img/6b.%20uncheck%20and%20save.png)
